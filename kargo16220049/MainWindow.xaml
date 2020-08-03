@@ -1,0 +1,128 @@
+﻿<Window x:Class="kargo16220049.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kargo16220049"
+        mc:Ignorable="d"
+        Title="Kargo Bilgi Sistemi" Height="515.5" Width="842" Background="Gray" Loaded="Window_Loaded" Topmost="True" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="ThreeDBorderWindow">
+    <DockPanel>
+        <TabControl SelectionChanged="TabControl_SelectionChanged_1">
+            <TabItem Header="Kargo Ara">
+                <DockPanel>
+                    <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
+                        <Label Content="Kargo Numarası :"/>
+                        <TextBox Name="knoSorgula" Width="306"/>
+                        <Button Content="Sorgula" Click="Button_Click_2" Width="104"/>
+                        <Button Content=" " Click="Button_Click_2" Width="25">
+                            <Button.Background>
+                                <ImageBrush ImageSource="favicon.ico"/>
+                            </Button.Background>
+                        </Button>
+                    </StackPanel>
+                    <DataGrid Name="sorgulaGrid" Background="#FFEAEAEA"/>
+
+                </DockPanel>
+            </TabItem>
+            <TabItem Header="Yeni Kargo">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="40*"/>
+                        <ColumnDefinition Width="113*"/>
+                        <ColumnDefinition Width="358*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" Content="Kargo Numarası " Grid.ColumnSpan="2"/>
+                    <Label Grid.Row="1" Grid.Column="0" Content="Gönderen Adı ve Soyadı" Grid.ColumnSpan="2"/>
+                    <Label Grid.Row="2" Grid.Column="0" Content="Gönderen Adresi" Grid.ColumnSpan="2"/>
+
+                    <Label Grid.Row="4" Grid.Column="0" Content="Gönderen Telefon" Grid.ColumnSpan="2"/>
+                    <Label Grid.Row="5" Grid.Column="0" Content="Alıcı Adı ve Soyadı" Grid.ColumnSpan="2"/>
+                    <Label Grid.Row="6" Grid.Column="0" Content="Alıcı Adresi" Grid.ColumnSpan="2"/>
+                    <Label Grid.Row="8" Grid.Column="0" Content="Alıcı Telefon" Grid.ColumnSpan="2"/>
+                    <TextBox Grid.Row="0" Grid.Column="2" Name="kNo" Background="White"  />
+                    <TextBox Grid.Row="1" Grid.Column="2" Name="Gas" />
+                    <TextBox Grid.Row="2" Grid.Column="2" Name="Gadres" Grid.RowSpan="2" AcceptsReturn="True" />
+
+                    <TextBox Grid.Row="4" Grid.Column="2" Name="Gtel" />
+                    <TextBox Grid.Row="5" Grid.Column="2" Name="AAS" />
+                    <TextBox Grid.Row="6"  Grid.Column="2" Name="AAdres" Grid.RowSpan="2" AcceptsReturn="True" />
+                    <TextBox Grid.Row="8" Grid.Column="2" Name="Atel" Margin="0,0,0,1" />
+                    <Button Content="Ekle"  Grid.Row="9" Grid.ColumnSpan="3" Click="Button_Click_1" Background="#FFB2B2B2" Margin="30,0" FontSize="20"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Bilgi Güncelle">
+                <StackPanel>
+                    <Grid>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="153*"/>
+                            <ColumnDefinition Width="358*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" Grid.Column="0" Content="Kargo Numarası " Grid.ColumnSpan="2"/>
+                        <Label Grid.Row="1" Grid.Column="0" Content="Gönderen Adı ve Soyadı" Grid.ColumnSpan="2"/>
+                        <Label Grid.Row="2" Grid.Column="0" Content="Gönderen Adresi" Grid.ColumnSpan="2"/>
+
+                        <Label Grid.Row="4" Grid.Column="0" Content="Gönderen Telefon" Grid.ColumnSpan="2"/>
+                        <Label Grid.Row="5" Grid.Column="0" Content="Alıcı Adı ve Soyadı" Grid.ColumnSpan="2"/>
+                        <Label Grid.Row="6" Grid.Column="0" Content="Alıcı Adresi" Grid.ColumnSpan="2"/>
+                        <Label Grid.Row="8" Grid.Column="0" Content="Alıcı Telefon"/>
+                        <Label Grid.Row="3" Grid.Column="0" Content="  " Grid.ColumnSpan="2"/>
+                        <Label Grid.Row="7" Grid.Column="0" Content="" Grid.ColumnSpan="2"/>
+                        <TextBox Grid.Column="1" Grid.Row="0" Name="guncelle1" />
+                        <TextBox Grid.Column="1" Grid.Row="1" Name="guncelle2" />
+                        <TextBox Grid.Row="2" Grid.Column="2" Name="Guncelle3" Grid.RowSpan="2" AcceptsReturn="True" />
+                        <TextBox Grid.Column="1" Grid.Row="4" Name="guncelle4" />
+                        <TextBox Grid.Column="1" Grid.Row="5" Name="guncelle5" />
+                        <TextBox Grid.Column="1" Grid.Row="8" Name="guncelle7" />
+                        <TextBox Grid.Row="6"  Grid.Column="2" Name="guncelle6" Grid.RowSpan="2" AcceptsReturn="True" />
+                        <TextBox Grid.Row="10" Name="sorgulamaaa" Grid.ColumnSpan="2" Margin="0,0,343,0" Text="Buraya Kargo Numarası Giriniz" MouseDoubleClick="sorgulamaaa_MouseDoubleClick" />
+                        <Button Grid.Row="9" Grid.ColumnSpan="2" Content="Güncelle" Click="Button_Click_3"/>
+                        <Button Grid.Row="10" Content="Sorgula" Margin="145,0,0,0" Grid.Column="1" Click="Button_Click"/>
+
+                    </Grid>
+
+                    <DataGrid Name="guncelleGrid" SelectionChanged="guncelleGrid_SelectionChanged" Margin="-2,0,2,0"/>
+                </StackPanel>
+
+            </TabItem>
+            <TabItem Header="Kayıt Sil" >
+                <Grid>
+                    <DockPanel>
+                        <Button Content="Seçili satırı sil" DockPanel.Dock="Top" Name="sil" Click="sil_Click" Background="#FFEA4545"/>
+                        <DataGrid Name="izgara2"></DataGrid>
+                    </DockPanel>
+                </Grid>
+            </TabItem>
+
+
+
+        </TabControl>
+    </DockPanel>
+
+</Window>

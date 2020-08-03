@@ -1,0 +1,28 @@
+c:\users\toshıba\documents\visual studio 2017\Projects\kargo16220049\kargo16220049\obj\Debug\kargo16220049.csprojResolveAssemblyReference.cache
+c:\users\toshıba\documents\visual studio 2017\Projects\kargo16220049\kargo16220049\obj\Debug\MainWindow.g.cs
+c:\users\toshıba\documents\visual studio 2017\Projects\kargo16220049\kargo16220049\obj\Debug\App.g.cs
+c:\users\toshıba\documents\visual studio 2017\Projects\kargo16220049\kargo16220049\obj\Debug\kargo16220049_MarkupCompile.cache
+c:\users\toshıba\documents\visual studio 2017\Projects\kargo16220049\kargo16220049\obj\Debug\kargo16220049_MarkupCompile.lref
+c:\users\toshıba\documents\visual studio 2017\Projects\kargo16220049\kargo16220049\bin\Debug\kargo16220049.exe.config
+c:\users\toshıba\documents\visual studio 2017\Projects\kargo16220049\kargo16220049\bin\Debug\kargo16220049.exe
+c:\users\toshıba\documents\visual studio 2017\Projects\kargo16220049\kargo16220049\bin\Debug\kargo16220049.pdb
+c:\users\toshıba\documents\visual studio 2017\Projects\kargo16220049\kargo16220049\obj\Debug\MainWindow.baml
+c:\users\toshıba\documents\visual studio 2017\Projects\kargo16220049\kargo16220049\obj\Debug\kargo16220049.g.resources
+c:\users\toshıba\documents\visual studio 2017\Projects\kargo16220049\kargo16220049\obj\Debug\kargo16220049.Properties.Resources.resources
+c:\users\toshıba\documents\visual studio 2017\Projects\kargo16220049\kargo16220049\obj\Debug\kargo16220049.csproj.GenerateResource.Cache
+c:\users\toshıba\documents\visual studio 2017\Projects\kargo16220049\kargo16220049\obj\Debug\kargo16220049.exe
+c:\users\toshıba\documents\visual studio 2017\Projects\kargo16220049\kargo16220049\obj\Debug\kargo16220049.pdb
+C:\Users\Toshıba\Desktop\kargo16220049\kargo16220049\bin\Debug\kargo16220049.exe.config
+C:\Users\Toshıba\Desktop\kargo16220049\kargo16220049\bin\Debug\kargo16220049.exe
+C:\Users\Toshıba\Desktop\kargo16220049\kargo16220049\bin\Debug\kargo16220049.pdb
+C:\Users\Toshıba\Desktop\kargo16220049\kargo16220049\obj\Debug\kargo16220049.csprojResolveAssemblyReference.cache
+C:\Users\Toshıba\Desktop\kargo16220049\kargo16220049\obj\Debug\MainWindow.g.cs
+C:\Users\Toshıba\Desktop\kargo16220049\kargo16220049\obj\Debug\App.g.cs
+C:\Users\Toshıba\Desktop\kargo16220049\kargo16220049\obj\Debug\kargo16220049_MarkupCompile.cache
+C:\Users\Toshıba\Desktop\kargo16220049\kargo16220049\obj\Debug\kargo16220049_MarkupCompile.lref
+C:\Users\Toshıba\Desktop\kargo16220049\kargo16220049\obj\Debug\MainWindow.baml
+C:\Users\Toshıba\Desktop\kargo16220049\kargo16220049\obj\Debug\kargo16220049.g.resources
+C:\Users\Toshıba\Desktop\kargo16220049\kargo16220049\obj\Debug\kargo16220049.Properties.Resources.resources
+C:\Users\Toshıba\Desktop\kargo16220049\kargo16220049\obj\Debug\kargo16220049.csproj.GenerateResource.Cache
+C:\Users\Toshıba\Desktop\kargo16220049\kargo16220049\obj\Debug\kargo16220049.exe
+C:\Users\Toshıba\Desktop\kargo16220049\kargo16220049\obj\Debug\kargo16220049.pdb
